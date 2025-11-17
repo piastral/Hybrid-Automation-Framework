@@ -1,0 +1,102 @@
+2025-08-18 17:01:48 [main] ERROR BaseClass - This is error message
+2025-08-18 17:01:48 [main] FATAL BaseClass - This is Fatal message
+2025-08-18 17:01:57 [main] ERROR BaseClass - This is error message
+2025-08-18 17:01:57 [main] FATAL BaseClass - This is Fatal message
+2025-08-18 17:06:43 [main] ERROR BaseClass - This is error message
+2025-08-18 17:06:43 [main] FATAL BaseClass - This is Fatal message
+2025-08-18 17:06:51 [main] ERROR BaseClass - This is error message
+2025-08-18 17:06:51 [main] FATAL BaseClass - This is Fatal message
+2025-09-01 17:15:26 [main] ERROR BaseClass - This is error message
+2025-09-01 17:15:26 [main] FATAL BaseClass - This is Fatal message
+2025-09-01 17:15:36 [main] ERROR BaseClass - This is error message
+2025-09-01 17:15:36 [main] FATAL BaseClass - This is Fatal message
+2025-09-01 17:15:54 [main] ERROR ActionDriver - class org.openqa.selenium.TimeoutException
+2025-09-01 17:15:54 [main] ERROR ActionDriver - Element is i not clickableExpected condition failed: waiting for element to be clickable: By.xpath: //a[text()='Logout'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52609/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14ec02ae9574f2a3d3117838c517d109
+2025-09-01 17:16:01 [main] ERROR BaseClass - This is error message
+2025-09-01 17:16:01 [main] FATAL BaseClass - This is Fatal message
+2025-10-13 14:54:44 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 14:54:44 [TestNG-test-OrangeHrmTest-1] ERROR BaseClass - This is error message
+2025-10-13 14:54:44 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 14:54:44 [TestNG-test-OrangeHrmTest-1] FATAL BaseClass - This is Fatal message
+2025-10-13 14:54:45 [TestNG-test-OrangeHrmTest-1] ERROR ActionDriver - class org.openqa.selenium.StaleElementReferenceException
+2025-10-13 14:54:45 [TestNG-test-OrangeHrmTest-1] ERROR ActionDriver - Unable to click the Elementstale element reference: stale element not found
+  (Session info: chrome=141.0.7390.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83275a99a9cc49681b7090a9fab8f643, clickElement {id=f.36873DABFD4FB2DCE7ED4EC114E69EF7.d.76FDB3A2AFF2DF4ADA72B362D947E3DF.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.67, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51273/devtoo..., se:cdpVersion: 141.0.7390.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (83275a99a9cc49681b7090a9fab8f643)] -> xpath: //button[@type='submit']]
+Session ID: 83275a99a9cc49681b7090a9fab8f643
+2025-10-13 14:55:04 [TestNG-test-OrangeHrmTest-2] ERROR ActionDriver - element is Not Visibleinvalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=141.0.7390.67)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83275a99a9cc49681b7090a9fab8f643, findElement {value=//div[@class='oxd-brand-banner'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.67, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51273/devtoo..., se:cdpVersion: 141.0.7390.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83275a99a9cc49681b7090a9fab8f643
+2025-10-13 14:55:04 [TestNG-test-OrangeHrmTest-2] ERROR ActionDriver - class org.openqa.selenium.NoSuchSessionException
+2025-10-13 14:55:04 [TestNG-test-OrangeHrmTest-2] ERROR ActionDriver - Element is Not Visibleinvalid session id
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83275a99a9cc49681b7090a9fab8f643, findElement {value=//div[@class='oxd-brand-banner'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.67, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51273/devtoo..., se:cdpVersion: 141.0.7390.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83275a99a9cc49681b7090a9fab8f643
+2025-10-13 14:55:08 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 14:55:08 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 14:58:20 [TestNG-test-OrangeHrmTest-1] ERROR BaseClass - This is error message
+2025-10-13 14:58:20 [TestNG-test-OrangeHrmTest-1] FATAL BaseClass - This is Fatal message
+2025-10-13 14:58:20 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 14:58:20 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 14:58:20 [TestNG-test-OrangeHrmTest-1] ERROR ActionDriver - class org.openqa.selenium.StaleElementReferenceException
+2025-10-13 14:58:20 [TestNG-test-OrangeHrmTest-1] ERROR ActionDriver - Unable to click the Elementstale element reference: stale element not found
+  (Session info: chrome=141.0.7390.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c154a1db0f337b70c8b9984a89d9028, clickElement {id=f.BE2D4B9AF18A4EB80DBD820D0D4FE843.d.0918B2571BDE8DBE939F6A9EED4E5E56.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.67, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51371/devtoo..., se:cdpVersion: 141.0.7390.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c154a1db0f337b70c8b9984a89d9028)] -> xpath: //button[@type='submit']]
+Session ID: 8c154a1db0f337b70c8b9984a89d9028
+2025-10-13 14:58:41 [TestNG-test-OrangeHrmTest-2] ERROR ActionDriver - element is Not VisibleExpected condition failed: waiting for visibility of element located by By.xpath: //div[@class='oxd-brand-banner'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.67, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51371/devtoo..., se:cdpVersion: 141.0.7390.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c154a1db0f337b70c8b9984a89d9028
+2025-10-13 14:58:41 [TestNG-test-OrangeHrmTest-2] ERROR ActionDriver - class org.openqa.selenium.remote.UnreachableBrowserException
+2025-10-13 14:58:41 [TestNG-test-OrangeHrmTest-2] ERROR ActionDriver - Element is Not VisibleError communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c154a1db0f337b70c8b9984a89d9028, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.67, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\mohammed\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51371/devtoo..., se:cdpVersion: 141.0.7390.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c154a1db0f337b70c8b9984a89d9028
+2025-10-13 14:58:45 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 14:58:45 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 16:01:05 [TestNG-test-OrangeHrmTest-1] ERROR BaseClass - This is error message
+2025-10-13 16:01:05 [TestNG-test-OrangeHrmTest-1] FATAL BaseClass - This is Fatal message
+2025-10-13 16:01:05 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 16:01:05 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 16:01:14 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 16:01:14 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 17:18:24 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 17:18:24 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 17:18:24 [TestNG-test-OrangeHrmTest-1] ERROR BaseClass - This is error message
+2025-10-13 17:18:24 [TestNG-test-OrangeHrmTest-1] FATAL BaseClass - This is Fatal message
+2025-10-13 17:19:17 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 17:19:17 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
+2025-10-13 17:19:17 [TestNG-test-OrangeHrmTest-1] ERROR BaseClass - This is error message
+2025-10-13 17:19:17 [TestNG-test-OrangeHrmTest-1] FATAL BaseClass - This is Fatal message
+2025-10-13 17:19:25 [TestNG-test-OrangeHrmTest-2] ERROR BaseClass - This is error message
+2025-10-13 17:19:25 [TestNG-test-OrangeHrmTest-2] FATAL BaseClass - This is Fatal message
